@@ -81,13 +81,6 @@ export default defineNuxtConfig({
 		classSuffix: '',
 	},
 
-	image: {
-		// Netlify 需要特殊处理
-		provider: process.env.NUXT_IMAGE_PROVIDER,
-		domains: [],
-		format: ['avif', 'webp'],
-	},
-
 	ogImage: {
 		enabled: false,
 	},
